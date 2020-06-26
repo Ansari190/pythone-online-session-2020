@@ -1,0 +1,134 @@
+Python Assignment Sheet [2]      if…statement
+
+Task 1:
+Look at the following program source code.  When the program is run, the sum of the numbers are not printed out.  Explain why this is so.
+
+num1 = input('What is your first number? ')
+num2 = input('What is your second number? ')
+num3 = input('What is your third number? ')
+num4 = input('What is your fourth number? ')
+num5 = input('What is your fifth number? ')
+sum = num1+num2+num3+num4+num5
+print('The sum is: ', sum)
+
+Your Explanation:
+ This code will run properly
+num1 = int(input('What is your first number? '))
+num2 = int(input('What is your second number? '))
+num3 = int(input('What is your third number? '))
+num4 = int(input('What is your fourth number? '))
+num5 = int(input('What is your fifth number? '))
+sum = num1+num2+num3+num4+num5
+print('The sum is: ', sum)
+EXPLAINATION
+Input Is a string data type function.in this ,when we enter the number ,it also act as a string .so we use the int  function before intput function .so that our output gets printed.
+
+
+
+
+
+
+Task 2:
+Write a program to accept a number from the user and check if the number is already available in a given list x then ask the user to enter a new number. Collect 5 numbers and then print the even numbers if available out of the list.
+
+ANS
+   u=int(input())
+l = [1,2,3,4,5,6,7,8,9]
+for i in l :
+    
+        if (i==u):
+            print('this num is already in list')
+            print('enter a new num')
+c=int(input())       
+
+print ('your num is' ,c)    
+        
+
+
+
+
+
+Task 3:
+The IF Statement is a type of control structure that is used for evaluating whether statements are true or false.  Use the following words to fill in the blanks in the flowchart.
+
+IF CONDITION IS TRUE	TRUE BLOCK	IF CONDITION IS FALSE	CONDITION	FALSE BLOCK
+  
+  
+  
+ ANSWER--> 
+  
+  
+  
+  CODITION
+     |
+IF CONDITION IS TRUE  OR   IF CONDITION IS FALSE
+     |                             |
+TRUE BLOCK                    FALSE BLOCK
+
+
+
+Task 4:
+Rewrite the following statement in a strict syntax of Python.
+
+if <condidtion> is true then print <message A> else print <message B.
+
+ANS
+     a=int(input())
+b= int(input())
+if(a>b):
+     print('message A')
+else:
+    print('message B')
+    
+
+
+
+
+Task 5: 
+Write the source for Python below for a program that performs the following:
+1.	Prints a typical welcome message
+2.	Followed by a request to input one’s name and age
+3.	Assigns these two items of data to variables
+4.	Outputs the message: 
+
+‘Nice to meet you <name variable>, you are <age variable> years old!’
+Ans 
+
+
+
+
+A='welcome'
+Print(a)
+Name = input('enter your name please:-->  ')
+Age = int(input('enter your age please :-->  '))
+Print ('nice tomeet you',name)
+         Print('you are ',age,'years old')
+
+
+
+
+
+
+Task 6: 
+Jenny is trying to write a program for her youth club which asks the user to type in their age.  If the user’s age is between 10 and 14, then they are eligible to be members.  That means, a child who is 10, 11, 12, 13 or 14 can join. If they are not in this age range, they are not eligible to be members.  Here is her program below:
+
+age = int(input('Enter your age please'))
+if (age >10) or (age> 14)
+    print('You can join the Youth Club!')
+else:
+    print('Sorry, you are not the right age :(')
+
+When Jenny tries to run this program, it will not work.  Correct the program above by inserting your proposals in the appropriate places.
+
+
+
+
+
+Ans:
+  AGE = INPUT('ENTER YOUR AGE PLEASE')
+IF (AGE >10) AND (AGE<14):
+    PRINT('YOU CAN JOIN THE YOUTH CLUB!')
+ELSE:
+    PRINT('SORRY YOU ARE NOT THE RIGHT AGE :')
+
+
